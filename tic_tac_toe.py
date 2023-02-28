@@ -43,7 +43,7 @@ if __name__ == "__main__":
             
         else:
             print("O's chance")
-            value = int(input("Enter the valuesition: "))
+            value = int(input("Enter the position: "))
             zState[value] = 1
         cwin = checkWin(xState, zState)
         if (cwin !=-1):
