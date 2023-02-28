@@ -14,7 +14,7 @@ if answer == "left":
        print('Not a valid answer. You lose.')
 
 elif answer == "right":
-    answer = input("You come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)? ")
+    answer = input("You come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)? ").lower()
 
     if answer =="back":
        print("You go back and lose")
